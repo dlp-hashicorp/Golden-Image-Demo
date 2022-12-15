@@ -1,0 +1,15 @@
+# Cache objects
+packer_cache/
+
+# Crash log
+crash.log
+
+# Packer variable files
+#*.pkrvars.hcl
+
+# Script Files
+#*.sh
+*.swp
+
+# Future Files
+#*.future
