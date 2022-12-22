@@ -10,10 +10,10 @@ This repository contains Packer and Terraform HCL definitions for a basic end-to
 - A **Variable Set** in your Terraform Cloud Organization containing the following **Environment Variables**:
     - HCP_CLIENT_ID
     - HCP_CLIENT_SECRET *(sensitive)*
-    - Azure Subscription ID
-    - Azure Tenant ID
-    - Azure Client ID
-    - Azure Client Secret ID *(sensitive)*
+    - ARM_SUBSCRIPTION_ID
+    - ARM_TENANT_ID
+    - ARM_CLIENT_ID
+    - ARM_CLIENT_SECRET *(sensitive)*
 - An **_HCP-Packer_ Run Task** in your Terraform Cloud Organization.
     - Retrieve the **Endpoint URL** and **HMAC Key** from the HCP Packer *Integrate with Terraform Cloud* page under portal.cloud.hashicorp.com.
 - Assign the **_HCP-Packer_ Run Task** to the target Workspace and configure it for _Mandatory_.
