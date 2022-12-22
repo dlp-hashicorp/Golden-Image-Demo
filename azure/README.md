@@ -1,6 +1,7 @@
 ## HCP Packer and Terraform Demo in Azure
 
 This repository contains Packer and Terraform HCL definitions for a basic end-to-end demonstration in Azure.
+_* This was tested with Terraform v1.3.4_
 
 ### Pre-Requisites
 - An existing Terraform Cloud Organization with *Team & Governance Plan* features enabled.
